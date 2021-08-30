@@ -1,0 +1,84 @@
+*{
+  padding: 10px;
+}
+hr{
+  padding: 0;
+}
+div .mypic{
+  height: 200px;
+  width: 200px;
+  border-radius:200px;
+  border:solid black;
+  float: left;
+}
+div .myname{
+  font-family: cursive;
+  float:right;
+}
+.myname em{
+  font-style: normal;
+  padding-left: 50px;
+  font-size: 30px;
+}
+.myname div{
+  padding-top: 0;
+  padding-left: 280px;
+}
+.myname a{
+  text-decoration: none;
+}
+.section2 h1{
+  padding-left: 10px;
+  padding-top: 0;
+}
+section .section1{
+  display: flex;
+}
+.float_container{
+  display: flex;
+  align-content: flex-start;
+  /*align-items: baseline;*/
+  justify-content: space-evenly;
+  padding-left: 200px;
+}
+.details_1{
+  text-align: left;
+  border-style: solid;
+  border-color: black;
+  padding: 0;
+}
+.details_2{
+  border: solid black;
+  border-width: thin;
+}
+.details_1 .education{
+  padding: 20px;
+}
+.education h1{
+  color: white;
+}
+.education .bars{
+  background-color: black;
+}
+.details_2 .bars{
+  background-color: black;
+  color: white;
+ 
+}
+.codeforces_logo{
+  height: 30px;
+  width: 30px;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo p{
+  padding-top: 0;
+}
+.address{
+  text-align: center;
+}
+.contact a{
+  text-decoration: none;
+}
